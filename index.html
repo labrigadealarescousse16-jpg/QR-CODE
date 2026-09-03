@@ -11,19 +11,41 @@
       padding: 0;
       background: #f7f1eb;
       text-align: center;
+      font-family: Arial, sans-serif;
     }
 
-    img {
+    .flyer {
       display: block;
       width: 100%;
       max-width: 1024px;
       height: auto;
       margin: 0 auto;
     }
+
+    .contact-button {
+      display: inline-block;
+      margin: 20px auto 30px;
+      padding: 16px 30px;
+      background: #c4144f;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 19px;
+      font-weight: bold;
+    }
+
+    .contact-button:hover {
+      background: #9f123f;
+    }
   </style>
 </head>
-
 <body>
-  <img src="flyer.png" alt="La Brigade à la Rescousse">
+
+  <img class="flyer" src="flyer.png" alt="La Brigade à la Rescousse">
+
+  <a class="contact-button" href="contact.html">
+    💌 Poser une question / Nous contacter
+  </a>
+
 </body>
 </html>
