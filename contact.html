@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact – La Brigade à la Rescousse</title>
+<style>
+*{box-sizing:border-box} body{margin:0;font-family:Arial,sans-serif;background:#fff7f4;color:#333}
+.page{max-width:720px;margin:auto;padding:24px 16px 40px}
+.card{background:white;border:3px solid #c4144f;border-radius:24px;padding:28px 22px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+h1{text-align:center;color:#9f123f;font-size:32px;margin:0 0 8px}
+.intro{text-align:center;font-size:18px;margin:0 0 24px}
+label{display:block;margin:14px 0 6px;font-weight:bold;color:#9f123f}
+input,textarea{width:100%;padding:13px;border:1px solid #ddd;border-radius:12px;font-size:16px;font-family:inherit}
+textarea{min-height:150px;resize:vertical}
+button{width:100%;margin-top:20px;padding:15px;border:0;border-radius:14px;background:#c4144f;color:white;font-size:18px;font-weight:bold;cursor:pointer}
+.contact{text-align:center;margin-top:22px;line-height:1.7} a{color:#9f123f;font-weight:bold}
+.back{display:block;text-align:center;margin-top:22px;text-decoration:none}
+</style>
+</head>
+<body>
+<main class="page"><section class="card">
+<h1>💗 La Brigade à la Rescousse</h1>
+<p class="intro">Une question, une demande de renseignement ou besoin d'un service ?<br>Écrivez-nous, nous vous répondrons dès que possible.</p>
+<form action="mailto:labrigadealarescousse16@gmail.com" method="post" enctype="text/plain">
+<label for="nom">Votre nom</label><input id="nom" name="Nom" type="text" required>
+<label for="email">Votre adresse e-mail</label><input id="email" name="Email" type="email" required>
+<label for="telephone">Votre téléphone (facultatif)</label><input id="telephone" name="Téléphone" type="tel">
+<label for="message">Votre message ou votre question</label><textarea id="message" name="Message" required></textarea>
+<button type="submit">✉️ Envoyer mon message</button>
+</form>
+<div class="contact"><strong>Vous pouvez aussi nous contacter directement :</strong><br>
+📞 <a href="tel:+33780053190">07 80 05 31 90</a><br>
+✉️ <a href="mailto:labrigadealarescousse16@gmail.com">labrigadealarescousse16@gmail.com</a></div>
+<a class="back" href="index.html">← Retour au flyer</a>
+</section></main>
+</body></html>
